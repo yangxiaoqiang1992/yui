@@ -8,7 +8,8 @@ const components = {
   ...notice,
   ...form
 }
-const install = (app:App) => {
+const install = (app:App,options:any) => {
+  console.log('options',options)
   Object.values(components).forEach((component:any)=>{
     app.use(component)
   })

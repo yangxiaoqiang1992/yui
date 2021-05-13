@@ -4,7 +4,7 @@ export default defineComponent({
   name:'YButton',  
   setup(){
     return ()=>{
-       return <div class="button">YButton<input></input></div> 
+       return <div class="button"><input></input></div> 
     }  
   }
 })

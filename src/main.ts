@@ -4,4 +4,4 @@ import Yui from '../packages/ui/index'
 import '@style/theme.less'
 console.log(Yui)
 
-createApp(App).use(Yui).mount('#app')
+createApp(App).use(Yui,{prefix:'y'}).mount('#app')
